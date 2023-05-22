@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Bar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <script src="/java/js.js"></script>
+</head>
+<body>
+    <!--BARRA DE MENU-->
+    <section class="head">
+        <!-- Sidebar -->
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="login.html">Login</a>
+            <a href="index.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a  href="#about">Acerca de</a>
+            <a href="#footer">Contacto</a>
+          </div>
+          <button class="openbtn" onclick="openNav()">☰</button>  
+    </section>
+    <div class="login">
+        <h1>REGISTRATE</h1>
+        <form method="POST" name="formLogin" action="index.html" onsubmit="login(userName,password)">
+            USUARIO<br>
+            <p><input type="text" name="usuario" placeholder="Nombre de usuario"></p><br>
+            <p><input type="email" name="correo" placeholder="Coloca tu correo"></p><br>
+            CONTRASEÑA<br>
+            <p><input type="password" name="contaseña" placeholder="Contraseña"></p>
+            <br>
+            <p><input type="submit" name="btnLogin" value="Ingresar" onsubmit="Ingresar"></p>
+
+         </form>
+        </div>
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</body>
+</html>

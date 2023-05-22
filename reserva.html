@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Bar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <script src="/java/js.js"></script>
+</head>
+<body>
+  <!--BARRA DE MENU-->
+  <section class="head">
+      <!-- Sidebar -->
+      <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="login.html">Login</a>
+          <a href="index.html">Inicio</a>
+          <a href="carta.html">Carta</a>
+          <a  href="#about">Acerca de</a>
+          <a href="#footer">Contacto</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>  
+  </section>
+    
+  <!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:700px">
+      <p><strong>Reserva</strong> una mesa, pregunta por el especial de hoy o simplemente envíanos un mensaje:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="texto" placeholder="Nombre" required name="Nombre"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="número" placeholder="Cuantas personas" required name="Personas"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensaje \ Requisitos especiales" required name="Message"></p>
+        <p><button class="w3-button w3-black" type="submit">ENVIAR MENSAJE</button></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

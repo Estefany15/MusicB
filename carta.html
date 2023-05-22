@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Bar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <script src="/java/js.js"></script>
+</head>
+<body>
+    <!--BARRA DE MENU-->
+    <section class="head">
+        <!-- Sidebar -->
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="login.html">Login</a>
+            <a href="index.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a  href="#about">Acerca de</a>
+            <a href="#footer">Contacto</a>
+          </div>
+          <button class="openbtn" onclick="openNav()">☰</button>  
+    </section>
+    <!--CARTA-->
+    <section class="carta">
+        <h1>Nuestra Carta</h1>
+        <div class="cart"><!--cart-->
+            <!-- First Photo Grid-->
+            <h2>Piqueos</h2>
+            <div class="piqueo">
+                <div class="item">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/564x/08/ed/1d/08ed1dbd2ce30eed89e49c0dc69f0c40.jpg" alt="">
+                    </div>
+                    <div class="conte">
+                        <h3>Alitas BBQ x6</h3>
+                        <p>Salsa BBQ casera y papas huayro crocantes.</p>
+                        <div class="price">
+                            <p>S/.31.90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/564x/5c/54/84/5c5484c6c37e975b6ffaf124d342fbe9.jpg" alt="">
+                    </div>
+                    <div class="conte">
+                        <h3>Pizza prosciutto</h3>
+                        <p>Arúgula con prosciutto y mix de queso mozarella/grana padano.</p>
+                        <div class="price">
+                            <p>S/.35.90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/564x/80/f3/3e/80f33e42578acaf7c881466df2238390.jpg" alt="">
+                    </div>
+                    <div class="conte">
+                        <h3>Pizza chorizo</h3>
+                        <p>Chorizo artesanal, cebolla caramelizada y mix de queso mozarella/grana padano.</p>
+                        <div class="price">
+                            <p>S/.35.90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/564x/64/3c/fa/643cfab4a89d2e50ac317130cf32c5fa.jpg" alt="">
+                    </div>
+                    <div class="conte">
+                        <h3>Pizza margarita</h3>
+                        <p>Tomate, albahaca y mix de queso mozarella/grana padano.</p>
+                        <div class="price">
+                            <p>S/.30.90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="https://i.pinimg.com/564x/d4/25/c9/d425c9f3c35a6743b686977bd722b6bc.jpg" alt="">
+                    </div>
+                    <div class="conte">
+                        <h3>Salchipapa clásica</h3>
+                        <p>Salchicha especial y papa huayro.</p>
+                        <div class="price">
+                            <p>S/.25.90</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Cocteles</h2>
+            <div class="coctel">
+                <h2>Pisco</h2>
+                <div class="pisco">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/7b/d3/76/7bd376dd932ca618a543b8f93e38e00e.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Chilcano clásico</h3>
+                            <p>Pisco Queirolo con ginger ale.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://diariocorreo.pe/resizer/ANkvYWYMzACvFjFtykfafMidBCI=/980x528/smart/filters:format(jpeg):quality(70)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/FBH6PHMDM5DP3EEWIIKNL7SDLI.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Chilcanos sabores</h3>
+                            <p>Maracuya con albahaca / Kión / Hierba luisa / Flor de jamaica.</p>
+                            <div class="price">
+                                <p>S/.24.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/5d/8c/77/5d8c774fcb28ba6614a12a4672ad2931.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Pisco Sour clásico</h3>
+                            <p>Trago peruano a base de pisco Queirolo y limón.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/4e/c2/c9/4ec2c904e965025422c0f1e549b8b476.jpg" alt="">
+                        </div>  
+                        <div class="conte">
+                            <h3>Pisco Sour maracuyá</h3>
+                            <p>Maracuya</p>
+                            <div class="price">
+                                <p>S/.24.90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Gin & Tonic</h2><!--GIN & TONIC-->
+                <div class="gin">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/0c/9e/e9/0c9ee9c258b842a73c6d3db91324c03e.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>MG Pink</h3>
+                            <p>Servido con frutos rojos</p>
+                            <div class="price">
+                                <p>S/.32.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/84/05/44/840544fb2224105473acb442cee40db1.jpg" alt="">
+                        </div>    
+                        <div class="conte">
+                            <h3>Beffeater</h3>
+                            <p>London dry con rodaja de naranja</p>
+                            <div class="price">
+                                <p>S/.31.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/b5/c3/ac/b5c3acf762124eb99b898e5e66fe7a1d.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Tanqueray</h3>
+                            <p>London dry con rodaja de limón</p>
+                            <div class="price">
+                                <p>S/.34.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/20/94/98/209498729cc6150ef2a51ca436deb164.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Hendricks</h3>
+                            <p>Con pepino</p>
+                            <div class="price">
+                                <p>S/.36.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/e5/fb/8b/e5fb8b64338a464608c46c7264491093.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Negroni</h3>
+                            <p>Beffeater London dry, martini rosso y campari</p>
+                            <div class="price">
+                                <p>S/.31.90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="clas">Ron</h2><!--RON-->
+                <div class="ron">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/c1/6d/32/c16d3231460a6eee695473d1a62806c6.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Mojito clásico</h3>
+                            <p>Ron Bacardi blanco, limón y agua con gas.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/d3/2e/1a/d32e1a4edb3aa49c393a74eff3ca093e.jpg" alt="">
+                        </div>   
+                        <div class="conte">   
+                            <h3>Mojito sabores</h3>
+                            <p>Maracuyá con albahaca / Frutos del bosque.</p>
+                            <div class="price">
+                                <p>S/.24.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/d8/ed/6a/d8ed6a53bc01815df5ca06051168118d.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Daiquiri</h3>
+                            <p>Fresa / Maracuya.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/e3/b5/8f/e3b58f188700bc600207c8878c092adf.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Cuba libre</h3>
+                            <p>Fresa / Maracuya.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/90/84/f2/9084f205f609cbebc990cdf0f61805ad.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Piña colada</h3>
+                            <p>Ron Bacardi blanco, crema de coco, zumo de piña.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <h2 class="clas">Vodka</h2><!--VODKA-->
+                <div class="vod">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/15/5b/b7/155bb78053196248a2f8c2c750e8dfac.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Vodka Sunrise</h3>
+                            <p>Vodka, flor de jamaica, jugo de naranja.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/29/ff/a3/29ffa3a2b1a547584787dd23914b22d9.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Screwdriver</h3>
+                            <p>Vodka, jugo de naranja.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/df/3c/24/df3c24cb828122735436d2e74faba36e.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Vodka Tonic</h3>
+                            <p>Vodka, agua tónica.</p>
+                            <div class="price">
+                                <p>S/.30.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <h2 class="clas">Cerveza</h2><!--CERVEZA-->
+                <div class="cer">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/e4/39/be/e439be1010c107e7377de97c75cc29ba.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Pilsen</h3>
+                            <div class="price">
+                                <p>S/.12.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/4e/2a/25/4e2a250d0683c77ef4c222cd8dd9dd48.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Cusqueña</h3>
+                            <div class="price">
+                                <p>S/.13.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/a4/d6/d3/a4d6d37857bcc15d311c4e15f4b190b8.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Stella Artois</h3>
+                            <div class="price">
+                                <p>S/.14.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/d0/86/16/d0861678914cd3aa01ee50b3fbae8ee7.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Corona</h3>
+                            <div class="price">
+                                <p>S/.12.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/1f/58/b8/1f58b84a1d6924d97c593634d2dfff7a.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Heineken</h3>
+                            <div class="price">
+                                <p>S/.13.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <h2 class="clas">Mocktails (Sin alcohól)</h2><!--OCKTAILS-->
+                <div class="moc">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/52/97/4f/52974f25f7d22a34501ea566d3633e67.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Mint tonic</h3>
+                            <p>Hojas de menta, almibar, jarabe de menta, limón, agua tónica.</p>
+                            <div class="price">
+                                <p>S/.22.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/f5/07/8d/f5078d2cb1b060a8979146844daf78d4.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Pink lemonade</h3>
+                            <p>Frutos del bosque, limón, jarabe de goma.</p>
+                            <div class="price">
+                                <p>S/.18.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/29/2b/b3/292bb34967ca440d781c034d73b85e3f.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Sunshine punch</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.19.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <h2 class="clas">Vinos</h2><!--VINOS-->
+                <div class="vino">
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/d4/62/f6/d462f64dae38d1f86693f61fb683cbbc.jpg" alt="">
+                        </div> 
+                        <div class="conte">
+                            <h3>Malbec</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.17.90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/e4/91/83/e49183f2f9210dbf084cf072980efc43.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Syrah</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.18.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/5f/86/3c/5f863c8731fa3452a7d7b8d57956a01b.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Chardonnay</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.19.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/a2/71/ec/a271ecf2e310d9c9faed669716786c35.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Sauvignon blanc</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.19.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/236x/ca/90/3f/ca903fb1469630418ce74a085c76ecbf.jpg" alt="">
+                        </div>
+                        <div class="conte">
+                            <h3>Rosé</h3>
+                            <p></p>
+                            <div class="price">
+                                <p>S/.17.90</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

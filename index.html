@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Bar</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <script src="/java/js.js"></script>
+</head>
+<body>
+    <!--BARRA DE MENU-->
+    <section class="head">
+        <!-- Sidebar -->
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <!--a href="login.html">Inicia sesión</a-->
+            <a href="login.html">Registrarse</a>
+            <a href="#home">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a href="#about">Acerca de</a>
+            <a href="#footer">Contacto</a>
+            <a href="reserva.html">Reserva</a>
+          </div>
+          <button class="openbtn" onclick="openNav()">☰</button>  
+    </section>
+    <section class="home" id="home">
+        <div>
+            <div class="title">
+                <h1>Music Bar</h1>
+            </div>
+            <div class="text">
+                <p><i class="fa fa-map-marker"> Calle Berlín 378 - Miraflores, Lima</i></p>
+            </div>
+        </div>
+    </section>
+    <!-- ACERCA DE -->
+    <section class="about" id="about">
+        <h2>Acerca de</h2>
+        <div class="ac">
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/ca/54/b8/ca54b83efc1b5dbeb066ee4c76af60e5.jpg" alt="">
+            </div>
+            <div class="ac-d1">
+                <h3>Energía, Armonía y Fluidez</h3>
+                <p>Music Bar es un restobar conceptual. Ofrecemos bebidas y piqueos de la mejor calidad. Nos enfocamos en amplificar y sobretodo mejorar las emociones de nuestros visitantes, a través del servicio brindado y el ambiente único.
+                <br>
+                Nuestro principal objetivo es que al culminar tu visita, nos dejes con las mejores vibras!</p>
+            </div>
+        </div>
+    </section>
+    <!--MENÚ-->
+    <section class="menu">
+        <h2>Menú</h2>
+        <div class="me-c">
+            <div class="me">
+                <p>Nuestro menú está inspirado en brindar emociones nuevas, <br>experimentando con mezclas orgánicas que te harán vibrar.</p>
+                <br><h1>El lugar perfecto para salir</h1>
+            </div>
+            <div class="me-2">
+                <img src="https://i.pinimg.com/564x/76/72/73/767273a22b383bcc5035a99f35465b6c.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="for">
+            <form id="myForm" hidden>
+                <!-- Aquí van los campos del formulario -->
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Nombre</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Correo</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Tu correo..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="country">Genero</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="country" name="country">
+                      <option value="australia">Masculino</option>
+                      <option value="canada">Femenino</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Comentario</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <input type="submit" value="Enviar">
+                </div>
+            </form>        
+        </div>
+    </section>
+    <!-- UBICACIÓN -->
+    <section class="ubicacion">
+        <div class="ub">
+            <div class="ub-1">
+                <h1>Ubícanos</h1>
+                <p>Nos encontramos en el corazón de Miraflores, no hay excusas</p>
+                <!--colocar mapa-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31206.90507953684!2d-77.04938305820188!3d-12.121515639735367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8199ea33425%3A0xbfe3626e9c3a156a!2sMiraflores!5e0!3m2!1ses!2spe!4v1684537802441!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTO -->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="fo-cont">
+                <a class="fo-cont2">Política de Privacidad</a>
+                <a class="fo-cont2">Términos y Condiciones</a>
+                <a class="fo-cont2">Martes a Domingo</a>
+                <a class="fo-cont2">De 4:00 pm a 1:00 am</a>
+            </div>
+            <div class="fo-cont">
+                <a class="fo-cont2">Calle Berlín 378</a>
+                <a class="fo-cont2">Miraflores, Lima</a>
+                <a class="fo-cont2">Teléfono: 987 456 321</a>
+                <a class="fo-cont2">musicbar@gmail.com</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
